@@ -11,7 +11,7 @@ let input = document.querySelector("#toDoInput");
 })
     let newStyle = document.querySelector("#newUl")
 newStyle.addEventListener("click", (e)=>{
-    e.target.style.textDecoration = "line-through solid rgb(0,0, 0)"
+    e.target.style.textDecoration = "line-through"
 
 
 
